@@ -1,8 +1,8 @@
  var s = document.querySelector("h1")
  
 
- var btn = document.querySelector("button")
- btn.style.cursor = "pointer"
+ var bt = document.querySelector("button")
+ bt.style.cursor = "pointer"
 
 //console.log(s);
 
@@ -10,7 +10,7 @@
 
 // s.style.color = "red"
 
-btn.addEventListener("click", function(){
+bt.addEventListener("click", function(){
       s.innerHTML = " I am changed by clicking"
    
    
